@@ -4684,3 +4684,88 @@ var weekArray = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday
 for(var i=0; i<weekArray.length; i++){
     console.log(weekArray[i])
 }
+
+//Conditionals chapter from Foundations Practice
+
+// 1. Check Your Math
+// Use JavaScript to check and see if the following comparisons are true. For each of the following, log "True fact!" to the console if the condition evaluates to true and "LIES!" to the console if it doesn't.
+// Is the sum of 1 and 1 greater than 5?
+// Is the product of 4 and 5 less than our equal to 20?
+// Is the difference between 6 and 2 greater than or equal to 0?
+
+if(1+1 > 5){
+console.log("True fact!")
+} else{
+    console.log("Lies!")
+}
+
+if(4*5 <= 20){
+    console.log("True Fact!")
+} else {
+    console.log("lies!")
+}
+
+if(6/2 >= 0){
+    console.log("true fact!")
+} else{
+    console.log("Lies!")
+}
+
+// 2. Dog People vs. Cat People
+// In your JavaScript file, declare a new variable called likesDogs and set it equal to true or false.
+// If likesDogs is true, log "You're a dog person!" to the console. If not, log "You're a cat person!" to the console.
+
+var likesDogs = true;
+if(likesDogs = true){
+    console.log("You're a dog person!")
+} else{
+    console.log("You're a cat person!")
+}
+
+// 3. Generation Gaps
+// Declare a variable called birthYear and set it equal to your birth year.
+// Write a conditional statement that checks to see which generation you're part of and log a sentence about that generation to the console.
+// Try changing the value of birthYear and see what happens.
+
+var birthYear = 1985;
+if(birthYear >= 1985){
+    console.log("You're a millenial!")
+} else if(birthYear <= 1985){
+    console.log("You might be a Generation Xer")
+} else{
+    console.log("Hell if I know.")
+}
+
+// 4. Greetings
+// In your JavaScript file, create a new object representing a person. Your object should have at least two properties: one for the person's name and one for their preferred language.
+
+// Write a conditional that checks for the following:
+
+// If the person's preferred language is English, print "Hello, [name]!" to the console.
+// If the person's preferred language is Spanish print "Hola, [name]!" to the console.
+// If their preferred language is French, print "Bonjour, [name]!" to the console.
+var jeremyObject = {
+firstName: "Jeremy",
+lastName: "Crittendon",
+likes: "his wifey",
+language: "English",
+}
+
+if(language = "English"){
+    console.log(`Hello, ${jeremyObject.firstName}!`)
+} else if(language = "French") {
+    console.log(`Bonjour, ${jeremyObject.firstName}`)
+} else {
+    console.log(`Hola, ${jeremyObject.firstName}`)
+}
+// 5. Grandma's Kitchen
+// In your JavaScript file, declare two new variables:
+// A variable called time that should store a string that represents a time of day ("1:00 PM", "2:00 PM", etc)
+// A variable called isHungry that stores a boolean representing whether or not you're hungry
+// Write a conditional that checks the following:
+// If it's 7:30 AM and you're hungry, log "Time for breakfast!" to the console
+// If it's 12:00 PM and you're hungry, log "Time for luch!" to the console
+// If it's 7:00 PM or 8:00 PM and you're hungry, log "Time for dinner!" to the console.
+// If you're hungry, log "Time for a snack!" to the console.
+// If none of the above are true, log "Have a cookie anyway!" to the console.
+// Try changing the values of your variables. You should get different results every time you change them.
