@@ -4669,3 +4669,18 @@ for(var i = 0; i < 100; i++){
     console.log("TWEET TWEET")
 }
 
+var wordArray = ["hi", "my", "name", "is", "Lindsey"]
+for(var i=0; i<wordArray.length; i++){
+    console.log(wordArray[i])
+}
+
+
+// Lightning Exercise 7
+// Days of the Week
+// In your JavaScript, create a new variable called weekArray. It should store an array of strings representing seven days of the week
+// Loop through the array and print each day to the console.
+
+var weekArray = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+for(var i=0; i<weekArray.length; i++){
+    console.log(weekArray[i])
+}
