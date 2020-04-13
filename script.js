@@ -4653,6 +4653,19 @@ if(favoriteFood === "fried pickles" || favoriteFood === "pepperoni rolls"){
 } else{
     console.log("Clearly you have not tried fried pickles or pepperoni rolls")
 }
+ 
+// Loops
+
+for(var i = 0; i < 10; i++){
+console.log("I won't sleep in class.")
+}
 
 
+// Tommy Spurlock  2:01 PM
+// Lightning Exercise
+// Psychotic Bird
+// In your JavaScript file, write a while loop that outputs the phrase "TWEET TWEET" 100 times to the console.
+for(var i = 0; i < 100; i++){
+    console.log("TWEET TWEET")
+}
 
