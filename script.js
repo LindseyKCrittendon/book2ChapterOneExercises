@@ -4769,3 +4769,27 @@ if(language = "English"){
 // If you're hungry, log "Time for a snack!" to the console.
 // If none of the above are true, log "Have a cookie anyway!" to the console.
 // Try changing the values of your variables. You should get different results every time you change them.
+
+var time = "5:30 PM";
+var isHungry = false;
+if(time === "7:30am" && isHungry === true){
+    console.log("Time for breakfast!")
+} else if(time === "12:00 PM" && isHungry === true){
+    console.log("Time for lunch!")
+} else if(time === "7:00 PM" || "8:00 PM" && isHungry === true){
+    console.log("Time for dinner!")
+} else if(isHungry === true){
+    console.log("Time for a snack!")
+} else{
+    console.log("Have a cookie anyway!")
+}
+
+// 6. Student Grades
+// In your JavaScript file, declare a new variable called grade and give it a number value between 0 and 100.
+// Write a conditional that converts the number grade to a letter grade:
+// If the value of grade is greater than or equal to 0 and less than or equal to 69, log "You got an F" to the console.
+// If it's between 70 and 76, log "You got a D" to the console.
+// If it's between 77 and 84, log "You got a C" to the console.
+// If it's between 84 and 92, log "You got a B" to the console.
+// If it's between 93 and 100, log "You got an A" to the console.
+
