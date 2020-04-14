@@ -4793,3 +4793,16 @@ if(time === "7:30am" && isHungry === true){
 // If it's between 84 and 92, log "You got a B" to the console.
 // If it's between 93 and 100, log "You got an A" to the console.
 
+var grade = 82;
+if(grade >= 0 && grade <=69){
+console.log("You got an F")
+} else if(grade >= 70 && grade <= 76){
+    console.log("You got a D")
+} else if(grade >= 77 && grade <= 84){
+    console.log("You got a C")
+}else if(grade >= 84 && grade <= 92){
+    console.log("You got a B")
+}else{
+    console.log("You got an A")
+}
+
