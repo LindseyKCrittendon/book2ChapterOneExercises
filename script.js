@@ -4985,12 +4985,21 @@ for(var i = 0; i <=  cohortOneStudents.length; i++){
 // One of my interests is: 30 Rock.
 // One of my interests is: pizza.
 
-// var lindseyInterest = ["hiking", "coding", "math", "30 Rock", "pizza"];
+var lindseyInterest = ["hiking", "coding", "math", "30 Rock", "pizza"];
 // for(var i = 0; i <= lindseyInterest.length; i++){
 //     console.log(`One of my interests is ${lindseyInterest[i]}`); if (lindseyInterest[i] !== "coding")
 // } else{
 //     console.log(`My absolute favorite hobby is ${lindseyInterest[i]`)
 // }
+
+console.log(lindseyInterest.length)
+for(var i = 0; i < lindseyInterest.length; i++){
+    if(lindseyInterest[i] === "coding"){
+        console.log(`My absolute favorite hobby is ${lindseyInterest[i]}`)
+    } else {
+        console.log(`One of my interests is ${lindseyInterest[i]}`)
+    }
+} 
 
 
 // 3. Favorite Interest
@@ -5019,6 +5028,20 @@ var harryPotterTitles = ["and the Sorcerer's Stone", "and the Chamber of Secrets
 for(i = 0; i <= harryPotterTitles.length; i++){
     console.log(`Harry Potter ${harryPotterTitles[i]}`)
 }
+
+// 6. Student Grades
+// Copy and paste the folowing array of grades into your JavaScript file:
+var grades = [92, 91, 75, 66, 52, 90, 83, 85, 64, 90, 72, 88, 77, 98, 100, 73, 92]
+// Loop through the grades with a for loop
+// If the current grade is greater than or equal to 0 and less than or equal to 69, log "You got an F" to the console.
+// If it's between 70 and 76, log "You got a D" to the console.
+// If it's between 77 and 84, log "You got a C" to the console.
+// If it's between 84 and 92, log "You got a B" to the console.
+// If it's between 93 and 100, log "You got an A" to the console.
+
+
+
+
 
 
 
