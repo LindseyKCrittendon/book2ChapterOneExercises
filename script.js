@@ -4985,10 +4985,13 @@ for(var i = 0; i <=  cohortOneStudents.length; i++){
 // One of my interests is: 30 Rock.
 // One of my interests is: pizza.
 
-var lindseyInterest = ["hiking", "coding", "math", "30 Rock", "pizza"];
-for(var i = 0; i <= lindseyInterest.length; i++){
-    console.log(`One of my interests is ${lindseyInterest[i]}`)
-}
+// var lindseyInterest = ["hiking", "coding", "math", "30 Rock", "pizza"];
+// for(var i = 0; i <= lindseyInterest.length; i++){
+//     console.log(`One of my interests is ${lindseyInterest[i]}`); if (lindseyInterest[i] !== "coding")
+// } else{
+//     console.log(`My absolute favorite hobby is ${lindseyInterest[i]`)
+// }
+
 
 // 3. Favorite Interest
 // Refactor your loop from the previous exercise. Pick one of your interests as your absolute favorite interest. Add a conditional to your loop to check if each interest in the array is your favorite. When the loop gets to your favorite interest, it should print "My absolute favorite interest is:" followed by the name of your interest. Any other interests can be printed the same way that they were in the previous exercise.
@@ -4998,6 +5001,26 @@ for(var i = 0; i <= lindseyInterest.length; i++){
 // One of my interests is: math.
 // One of my interests is: 30 Rock.
 // One of my interests is: pizza.
+
+// 5. Harry Potter Titles
+// Copy and paste the following array into your JavaScript file:
+
+var harryPotterTitles = ["and the Sorcerer's Stone", "and the Chamber of Secrets", "and the Prisoner of Azkaban", "and the Goblet of Fire", "and the Order of the Phoenix", "and the Half-Blood Prince", "and the Deathly Hallows"];
+
+// Use a for loop to output the complete titles to the console.
+// Output:
+// "Harry Potter and the Sorcerer's Stone"
+// "Harry Potter and the Chamber of Secrets"
+// .
+// .
+// .
+// "Harry Potter and the Deathly Hallows"
+
+for(i = 0; i <= harryPotterTitles.length; i++){
+    console.log(`Harry Potter ${harryPotterTitles[i]}`)
+}
+
+
 
 
 
