@@ -4975,4 +4975,30 @@ for(var i = 0; i <=  cohortOneStudents.length; i++){
     console.log(cohortOneStudents[i]);
 }
 
+// 2. Interests
+// In your JavaScript file, create an array of 5 of your interests.
+// Loop through the interests and console log the phrase "One of my interests is: [your interest]." for each of the interests in your array.
+// Output:
+// One of my interests is: hiking.
+// One of my interests is: coding.
+// One of my interests is: math.
+// One of my interests is: 30 Rock.
+// One of my interests is: pizza.
+
+var lindseyInterest = ["hiking", "coding", "math", "30 Rock", "pizza"];
+for(var i = 0; i <= lindseyInterest.length; i++){
+    console.log(`One of my interests is ${lindseyInterest[i]}`)
+}
+
+// 3. Favorite Interest
+// Refactor your loop from the previous exercise. Pick one of your interests as your absolute favorite interest. Add a conditional to your loop to check if each interest in the array is your favorite. When the loop gets to your favorite interest, it should print "My absolute favorite interest is:" followed by the name of your interest. Any other interests can be printed the same way that they were in the previous exercise.
+// Output:
+// One of my interests is: hiking.
+// My absolute favorite interest is: coding.
+// One of my interests is: math.
+// One of my interests is: 30 Rock.
+// One of my interests is: pizza.
+
+
+
 
